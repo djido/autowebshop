@@ -90,8 +90,8 @@ foreach($results as $result)
             <h5><a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h5>
             <p class="list-price"><?php echo htmlentities($result->Price);?> KM</p>
             <ul>
-              <li><i class="fa fa-user" aria-hidden="true"></i>mjesta: <?php echo htmlentities($result->Kilometers  );?> </li>
-              <li><i class="fa fa-calendar" aria-hidden="true"></i>model: <?php echo htmlentities($result->ModelYear);?> </li>
+              <li><i class="fa fa-user" aria-hidden="true"></i>Kilometraža: <?php echo htmlentities($result->Kilometers  );?> </li>
+              <li><i class="fa fa-calendar" aria-hidden="true"></i>Model: <?php echo htmlentities($result->ModelYear);?> </li>
               <li><i class="fa fa-car" aria-hidden="true"></i><?php echo htmlentities($result->FuelType);?></li>
             </ul>
             <a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>" class="btn">Više informacija <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
